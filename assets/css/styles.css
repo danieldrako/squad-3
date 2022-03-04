@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+
+/*3 linea*/
+
+.btn-primary2 {
+    background-color: rgba(198, 246, 231, 0.911);
+    color: rgb(62, 240, 240);
+    text-decoration: none;
+    padding: 7px;
+}
+
+.btn-link2 {
+    background-color: rgb(200, 200, 200);
+    color: rgb(62, 139, 240);
+    text-decoration: none;
+    padding: 7px;
+}
+
+.btn-info2 {
+    background-color: rgba(223, 223, 223, 0.883);
+    color: rgb(82, 151, 241);
+    text-decoration: none;
+    padding: 7px;
+}
+
+.btn-success2 {
+    background-color: rgba(160, 250, 238, 0.226);
+    color: rgb(2, 206, 195);
+    text-decoration: none;
+    padding: 7px;
+}
+
+.btn-warning2 {
+    background-color: rgba(255, 244, 92, 0.5);
+    color: rgb(175, 149, 0);
+    text-decoration: none;
+    padding: 7px;
+}
+
+.btn-danger2 {
+    background-color: rgba(245, 144, 194, 0.466);
+    color: rgb(131, 0, 11);
+    text-decoration: none;
+    padding: 7px;
+}
+
+
+/*4 linea*/
+
+.btn-small {
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 10px;
+}
+
+.btn-default {
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+}
+
+.btn-normal {
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+    padding: 13px;
+    font-size: 17px;
+}
+
+.btn-medium {
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+    padding: 18px;
+    font-size: 22px;
+}
+
+.btn-large {
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+    padding: 23px;
+    font-size: 28px;
+}
+
+.container {
+    margin: 10px;
+}
