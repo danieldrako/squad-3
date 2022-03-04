@@ -4,6 +4,13 @@
     padding: 0;
 }
 
+.center-ul-list{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+}
+
 .btn {
     display: inline-block;
     background-color: transparent;
@@ -12,6 +19,7 @@
     padding: 8px 16px;
     border-radius: 4px;
     font-size: 1.5em;
+    margin: 10px 1px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
@@ -43,4 +51,77 @@
 .btn-text{
     background-color: #fff;
     color: black;
+    text-decoration: underline;
+}
+
+.btn-primary{
+    padding: 8px 23px;
+    background-color: rgb(90, 206, 167);
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-primary-light{
+    background-color: rgb(215, 253, 241);
+    color: rgb(90, 206, 167);
+}
+
+.btn-link{
+    padding: 8px 16px;
+    background-color: rgb(25, 90, 175);
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-link-light{
+    background-color: rgb(232, 232, 252);
+    color: rgb(57, 133, 233);
+}
+
+.btn-info{
+    padding: 8px 16px;
+    background-color: rgb(20, 115, 204);
+    text-decoration: none;
+    color: rgb(202, 231, 250);
+}
+
+.btn-info-light{
+    background-color: rgb(230, 243, 252);
+    color: rgb(20, 115, 204);
+}
+
+.btn-success{
+    padding: 8px 23px;
+    background-color: rgb(13, 177, 122);
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-success-light{
+    background-color: rgb(232, 250, 244);
+    color: rgb(13, 177, 122);
+}
+
+.btn-warning{
+    padding: 8px 23px;
+    background-color: rgb(236, 213, 12);
+    text-decoration: none;
+    color: #000;
+}
+
+.btn-warning-light{
+    background-color: rgb(252, 249, 232);
+    color: rgb(156, 142, 9);
+}
+
+.btn-danger{
+    padding: 8px 23px;
+    background-color: rgb(236, 12, 87);
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-danger-light{
+    background-color: rgb(248, 203, 231);
+    color: rgb(236, 12, 87);
 }
