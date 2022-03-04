@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.btn-white{
+    background-color: #fff;
+    text-decoration: none;
+    color: black;
+}
+
+.btn-light{
+    background-color: rgb(241, 241, 241);
+    text-decoration: none;
+    color: black;
+}
+
+.btn-dark{
+    background-color: rgb(46, 46, 46);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.btn-black{
+    background-color: #000;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.btn-text{
+    background-color: #fff;
+    color: black;
+}
