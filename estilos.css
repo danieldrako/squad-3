@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.primary-text {
+    font-size: 30px;
+}
+
+.secondary-text {
+    font-size: 18px;
+}
+
+.flex > div {
+    width: 75%;
+    background-color: rgb(238, 235, 235);
+    padding: 10px;
+    border-radius: 1px;
+    color: lightgray;
+    
+    
+    
+}
+
+.font-size {
+    font-size: 13px;
+}
+
+.flex  {
+    display: flex;
+    flex-direction: row;
+    background-color: none;
+    padding: -10px;
+    align-items: left;
+    
+}
+
+.card {
+    margin: 10px;
+    border: 1px solid black;
+    padding-left: 20px;
+
+}
+
+.card > span {
+    font-size: 15px;
+    color:rgba(162, 162, 162, 0.817)
+}
+
+
+.footer-card  {
+    
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+}
+
+.color-items {
+    color: rgba(47, 48, 45, 0.482)
+}
