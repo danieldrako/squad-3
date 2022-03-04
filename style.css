@@ -1,6 +1,7 @@
 html *{
     text-align: center;
     align-items: center;
+    flex-direction: row;
 }
 
 
@@ -31,3 +32,21 @@ html *{
 
 
 /*=============Reutilizable=================*/
+
+.primary-color{
+border: 1px solid lightskyblue;
+color:lightskyblue;
+}
+
+.secondary-color{
+   border: 1px solid lightgray;
+   color:lightgray;
+
+}
+
+
+.danger-card{
+  border: 1px solid red;
+  color:lightcoral;
+
+}
